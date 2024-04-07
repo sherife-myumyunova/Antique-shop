@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="#" class="logo">ANTIQUE SHOP</a>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="right"><a class="active" href="register.html">Register</a></li>
+        <li class="right"><a href="#logout">Logout</a></li>
+        <li class="right"><a href="login.html">Login</a></li>
+        <li class="right"><a href="#profile">Profile</a></li>
+        </ul>
+    </div>
+
+	<div class="main">
+		<h1>Registration form</h1>
+		<form action="">
+			<label for="first">
+				Username:
+			</label>
+			<input type="text"
+				id="first"
+				name="first"
+				placeholder="Enter your Username" required>
+            
+            <label for="first">
+                Email:
+            </label>
+            <input type="text"
+                id="first"
+                name="first"
+                placeholder="Enter your Email" required>
+
+			<label for="password">
+				Password:
+			</label>
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your Password" required>
+
+			<div class="wrap">
+				<button type="submit"
+						onclick="solve()">
+					Submit
+				</button>
+			</div>
+		</form>
+		<p>Already registered? 
+			<a href="login.html"
+			style="text-decoration: none;">
+				Sign in
+			</a>
+		</p>
+	</div>
+</body>
+
+</html>
